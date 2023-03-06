@@ -1,0 +1,151 @@
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+  margin: 0;
+ 
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image : url('book.jpg'); 
+  background-repeat: no-repeat ;
+   background-size: cover ;
+
+}
+
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.add-product-section {
+ /* background-color: #f1f1f1;*/
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 800px; /* increase the max-width to make the form wider */
+  box-sizing: border-box; /* include padding in width */
+}
+
+.add-product-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.add-product-section label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.add-product-section input[type="text"],
+.add-product-section input[type="number"],
+.add-product-section textarea,
+.add-product-section select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.add-product-section input[type="submit"] {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-product-section input[type="submit"]:hover {
+  background-color: #0059b3;
+}
+
+
+.product-list-section {
+  width: 100%;
+  max-width: 800px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea,
+select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+button{
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+      margin: auto;
+      margin-top: 30px;
+       height: 2rem;
+      width: 15rem;
+      border:1px solid rgb(158, 161, 163);
+      border-radius: 15px;
+      opacity: 1;
+      background-color: rgb(255, 255, 255);
+      box-shadow: -3px 15px 37px -4px rgba(0,0,0,0.75);
+      text-align: center;
+      font-size: 15px;
+}
